@@ -1,6 +1,7 @@
 package com.academico.titulos.dtos;
 
 public class TituloDto {
+<<<<<<< HEAD
     private Long id;
     private String nombre;
     private String descripcion;
@@ -39,11 +40,30 @@ public class TituloDto {
 
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
+=======
+    private String nombreEstudiante;
+    private String carrera;
+
+    // Constructor
+    public TituloDto(String nombreEstudiante, String carrera) {
+        this.nombreEstudiante = nombreEstudiante;
+        this.carrera = carrera;
+    }
+
+    // Getters y Setters
+    public String getNombreEstudiante() {
+        return nombreEstudiante;
+    }
+
+    public void setNombreEstudiante(String nombreEstudiante) {
+        this.nombreEstudiante = nombreEstudiante;
+>>>>>>> ea92841ad6fac247b13b60b94d812f2db1c4ec81
     }
 
     public String getCarrera() {
         return carrera;
     }
+<<<<<<< HEAD
     public void setCarrera(String carrera) {
         this.carrera = carrera;
     }
@@ -56,3 +76,10 @@ public class TituloDto {
 
 
 
+=======
+
+    public void setCarrera(String carrera) {
+        this.carrera = carrera;
+    }
+}
+>>>>>>> ea92841ad6fac247b13b60b94d812f2db1c4ec81
