@@ -1,0 +1,17 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/java:21",
+    // Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"vscjava.vscode-java-pack",
+				"vscjava.vscode-spring-initializr",
+				"vscjava.vscode-spring-boot-dashboard",
+				"vmware.vscode-spring-boot"
+			]
+		}
+	}
+}
